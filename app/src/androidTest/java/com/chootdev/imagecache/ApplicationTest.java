@@ -1,4 +1,4 @@
-package com.chootdev.cimagecache;
+package com.chootdev.imagecache;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

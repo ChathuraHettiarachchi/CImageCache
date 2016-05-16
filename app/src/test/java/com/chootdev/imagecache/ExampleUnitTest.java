@@ -1,4 +1,4 @@
-package com.chootdev.cimagecache;
+package com.chootdev.imagecache;
 
 import org.junit.Test;
 
