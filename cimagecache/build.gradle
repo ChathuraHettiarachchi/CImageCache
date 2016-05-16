@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/ChathuraHettiarachchi/CImageCache'
     gitUrl = 'https://github.com/ChathuraHettiarachchi/CImageCache.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.2'
 
     developerId = 'ChathuraHettiarachchi'
     developerName = 'Chathura Hettiarachchi'

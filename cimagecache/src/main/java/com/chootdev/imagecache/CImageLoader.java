@@ -47,6 +47,18 @@ public class CImageLoader {
         this.image_placeholder = placeHolder;
     }
 
+    public void DisplayImage(String url, ImageView imageView, ImageView.ScaleType scaleType) {
+        imageViews.put(imageView, url);
+        imageView.setScaleType(scaleType);
+        Bitmap bitmap = memoryCache.get(url);
+        if (bitmap != null)
+            imageView.setImageBitmap(bitmap);
+        else {
+            queuePhoto(url, imageView);
+            imageView.setImageResource(image_placeholder);
+        }
+    }
+
     public void DisplayImage(String url, ImageView imageView) {
         imageViews.put(imageView, url);
         Bitmap bitmap = memoryCache.get(url);
