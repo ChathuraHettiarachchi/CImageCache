@@ -10,6 +10,10 @@ For the android project just include the following dependency inside you buil.gr
 Gradle
 ------
 ```
+repositories {  
+   jcenter()  
+}
+
 dependencies {
     ...
     compile 'com.chootdev:cimagecache:1.0.3'
